@@ -15,6 +15,7 @@
 		B0F3813F20C03F6600BAF6AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3813E20C03F6600BAF6AA /* main.m */; };
 		B0F3814920C03F6600BAF6AA /* sourceThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3814820C03F6600BAF6AA /* sourceThreeTests.m */; };
 		B0F3815420C03F6600BAF6AA /* sourceThreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3815320C03F6600BAF6AA /* sourceThreeUITests.m */; };
+		B0F3816320C0428400BAF6AA /* text.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F3816220C0428400BAF6AA /* text.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B0F3814F20C03F6600BAF6AA /* sourceThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sourceThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F3815320C03F6600BAF6AA /* sourceThreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sourceThreeUITests.m; sourceTree = "<group>"; };
 		B0F3815520C03F6600BAF6AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0F3816120C0428400BAF6AA /* text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = text.h; sourceTree = "<group>"; };
+		B0F3816220C0428400BAF6AA /* text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = text.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B0F3813020C03F6600BAF6AA /* AppDelegate.m */,
 				B0F3813220C03F6600BAF6AA /* ViewController.h */,
 				B0F3813320C03F6600BAF6AA /* ViewController.m */,
+				B0F3816120C0428400BAF6AA /* text.h */,
+				B0F3816220C0428400BAF6AA /* text.m */,
 				B0F3813520C03F6600BAF6AA /* Main.storyboard */,
 				B0F3813820C03F6600BAF6AA /* Assets.xcassets */,
 				B0F3813A20C03F6600BAF6AA /* LaunchScreen.storyboard */,
@@ -267,6 +272,7 @@
 			files = (
 				B0F3813420C03F6600BAF6AA /* ViewController.m in Sources */,
 				B0F3813F20C03F6600BAF6AA /* main.m in Sources */,
+				B0F3816320C0428400BAF6AA /* text.m in Sources */,
 				B0F3813120C03F6600BAF6AA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
